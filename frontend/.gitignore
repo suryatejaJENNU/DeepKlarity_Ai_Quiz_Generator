@@ -15,8 +15,7 @@ out/
 .env.*
 *.local
 
-components/
-services/
+
 # Vite cache
 .vite/
 vite.config.ts.timestamp*

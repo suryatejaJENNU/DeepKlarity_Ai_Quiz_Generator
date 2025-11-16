@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-// import GenerateQuiz from "./components/GenerateQuiz";
-// import History from "./components/History";
+import GenerateQuiz from "./components/GenerateQuiz";
+import History from "./components/History";
 
 export default function App() {
   const [tab, setTab] = useState("generate");
@@ -57,7 +57,7 @@ export default function App() {
           </div>
         </header>
 
-        {/* <main>{tab === "generate" ? <GenerateQuiz /> : <History />}</main> */}
+        <main>{tab === "generate" ? <GenerateQuiz /> : <History />}</main>
 
         <footer className="mt-10 text-center text-sm text-slate-500">
           Built with  — Gemini + LangChain + FastAPI
